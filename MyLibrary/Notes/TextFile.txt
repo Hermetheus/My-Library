@@ -1,0 +1,34 @@
+﻿Database Migrations help us keep changes to our database schema organized and reversible
+
+In Package Manager Console
+
+add-migration "Initial migration"
+
+update database
+
+Library Assets - Title, Author, Year Published, Cost
+Asset Location & Checkout Status
+
+Patrons
+First Name, Last Name, Address
+Library Card ID & Home Library Branch
+
+Library Branch
+Branch Name, Telephone #, Address
+Totatl Cost of Assets
+Total # of Patrons
+
+Checkout System
+Associate an asset with Library Card
+Define the time an asset was checked out & viewed
+
+Library Card
+One-to-One Relationship with patron
+Hold Value for overdue Fees & Checkouts
+
+Holds
+Put holds on items while they are checked out by other Patrons
+
+Checkout History
+
+Asset Status
